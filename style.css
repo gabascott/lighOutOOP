@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+body{
+    box-sizing:border-box;
+}
+
+main{
+    max-width: 180px;
+    margin:auto;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+article{
+    display: grid;
+    grid-template-columns:50px 50px 50px;
+    grid-template-rows:50px 50px 50px;
+    grid-gap:10px;
+    margin:auto;
+}
+
+article div{
+    border: 1px solid black;
+}
+
+/*.container{
+    display: flex;
+    align-items: center;
+}*/
+/*.lampa{
+    background-color: red;
+}*/
